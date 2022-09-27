@@ -15,16 +15,16 @@ class Block{
     rect(this.x,this.y,this.width,this.height) 
   }
   move(){
-    this.x = frameCount*-180 % width + width
+    this.x = frameCount*-280 % width + width
     if( this.xD < 0){}
     //this.x = +1(frameCount*120) % width
   }
   }
-  let Block1 = new Block(1,300,80,20,205,1,255);
-  let Block2 = new Block(1,400,80,20,205,1,255);
-  let Block3 = new Block(1,500,80,20,205,1,255);
-  let Block4 = new Block(1,600,80,20,205,1,255);
-  let Block5 = new Block(1,700,80,30,205,1,255);
+  let Block1 = new Block(1,300,80,20,405,1,255);
+  let Block2 = new Block(1,400,80,20,405,1,255);
+  let Block3 = new Block(1,500,80,20,405,1,255);
+  let Block4 = new Block(1,600,80,20,405,1,255);
+  let Block5 = new Block(1,700,80,30,405,1,255);
 function setup() {
   createCanvas(1900,900);
  
