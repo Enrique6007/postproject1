@@ -38,7 +38,7 @@ function setup() {
   colFill = color(255);
 }
 function changeBG() {
-  if (isLooping()) {
+  //if (isLooping()) {
     colBG = color(random(255), random(255), random(255));
     colFill = color(random(255), random(255), random(255));
   }
@@ -85,7 +85,7 @@ function keyPressed() {
     value = 0;
   }
 }
-button = createButton('Change Color');
-button.position(0, 760);
-button.mousePressed(changeBG);
+//button = createButton('Change Color');
+//button.position(0, 760);
+//button.mousePressed(changeBG);
 //hotdog
