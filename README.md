@@ -1,2 +1,3 @@
 # postproject1
 This is a post project one
+The project is a simulation of objective looping so fast that it looks like there are more objects looping at the same time. One of the things I wanted was to be able to change the background to randomly color with a push of a button which I did.  I did this because I play a moblie game called pixel racer which is a game where the car always stays still and the back moves and it feels that the car is going fast but it is just the background making the illusion.
