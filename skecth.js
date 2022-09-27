@@ -28,9 +28,9 @@ class Block{
 function setup() {
   createCanvas(1900,900);
  
-  button = createButton('Change Color');
-  button.position(0, 860);
-  button.mousePressed(changeBG);
+  //button = createButton('Change Color');
+  //button.position(0, 860);
+  //button.mousePressed(changeBG);
   
   checkbox = createCheckbox('Stop', true);
   checkbox.changed(checkLoop);
